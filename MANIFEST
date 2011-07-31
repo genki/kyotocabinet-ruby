@@ -1,0 +1,11 @@
+MANIFEST
+extconf.rb
+kyotocabinet.cc
+kyotocabinet-doc.rb
+kctest.rb
+test.rb
+makedoc.rb
+makedist.sh
+kyotocabinet.gemspec
+COPYING
+README
