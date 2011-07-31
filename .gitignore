@@ -2,7 +2,8 @@
 .bundle
 Gemfile.lock
 pkg/*
-ext/*.log
-ext/*.o
-ext/*.bundle
-ext/Makefile
+*.log
+*.o
+*.so
+*.bundle
+Makefile
