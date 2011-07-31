@@ -1,10 +1,7 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "kyotocabinet-ruby/version"
-
 Gem::Specification.new do |s|
   s.name        = "kyotocabinet-ruby"
-  s.version     = Kyotocabinet::Ruby::VERSION
+  s.version     = "1.27"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["FAL Labs"]
   s.email       = ["info@fallabs.com"]
@@ -19,8 +16,6 @@ within a database.  There is neither concept of data tables nor data types.
 Records are organized in hash table or B+ tree.
 EOH
   s.rubyforge_project = "kyotocabinet-ruby"
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.extensions    << 'ext/kyotocabinet/extconf.rb'
-  s.require_paths = ["lib", "ext"]
+  s.files         = ['extconf.rb', 'kyotocabinet.cc']
+  s.extensions    << 'extconf.rb'
 end
