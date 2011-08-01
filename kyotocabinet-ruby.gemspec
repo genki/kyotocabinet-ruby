@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["FAL Labs"]
   s.email       = ["info@fallabs.com"]
-  s.homepage    = "http://fallabs.com/Kyotocabinet/"
+  s.homepage    = "http://fallabs.com/kyotocabinet/"
   s.summary     = "Kyoto Cabinet: a straightforward implementation of DBM."
   s.description = (<<EOH).split("\n").join(' ')
 Kyoto Cabinet is a library of routines for managing a database.  The database
